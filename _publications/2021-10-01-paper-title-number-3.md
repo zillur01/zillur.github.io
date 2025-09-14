@@ -1,0 +1,21 @@
+---
+title: "An Approach for Multiclass Skin Lesion Classification Based on Ensemble Learning"
+collection: publications
+category: manuscripts
+permalink: /publication/2021-10-01-paper-title-number-2
+excerpt: ''
+venue: 'Informatics In Medicine Unlocked'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S2352914821001465'
+---
+
+**Background and objective**\
+Skin cancer is recognized as the most common kind of cancer in the world. It could be deadly if not identified at the primary stage, which makes early detection very crucial. It is possible to identify it with the naked eye, but high inter-class similarity and intra-class variations make it too hard to detect. Due to the prevalence of this disease around the world, so far many automated systems have been developed based on deep learning to assist the physician in the early detection of skin lesions.
+
+**Methods**\
+In this study, we propose a weighted average ensemble learning-based model to classify seven types of skin lesions. We used five deep neural network models, namely, ResNeXt, SeResNeXt, ResNet, Xception, and DenseNet as the base of the ensemble. For the training and evaluation of our models, we used 18,730 dermoscopy images collected from the official Human Against Machine (HAM10000) and ISIC 2019 dataset together with class balancing, noise removal, and data augmentation technique. We found the best combinations of the base models in the ensemble using the grid search method and optimized the impact of each base model for the average recall score.
+
+**Results**\
+The five models performed excellent during evaluation and 88%, 89%, 91%, 88%, and 84% macro-average recall score were achieved by ResNeXt, SeResNeXt, DenseNet, Xception, and ResNet respectively. The simple average ensemble model boosted the result to 93% and the weighted average ensemble obtained a 94% recall score. The grid search method showed that the impact of all models are almost equal in the final model.
+
+**Conclusion**
+The average ensemble can improve the result by a significant amount. Our proposed system performed better than other existing systems and can support dermatologists for diagnosis.
