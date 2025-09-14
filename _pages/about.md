@@ -1,56 +1,32 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+I am currently working as a Systems Test Engineer at [Waymo](https://waymo.com/) (Google self-driving car). Before that, I worked as an AV Performance Analysis Engineer at [Motional](https://motional.com/), another leading self-driving car company. I obtained my Master of Science in Electrical Engineering from the University of Nevada, Las Vegas, in 2023.  I was fortunate to have [Dr. Brendan Morris](http://rtis.oit.unlv.edu/index.html) as my MS advisor. I received my Bachelor of Science degree from Chittagong University of Engineering and Technology (CUET) in 2021.
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+My research interests lie in the areas of machine learning, computer vision, and autonomous systems, and I am constantly exploring new technologies and techniques in these fields.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Aside from my studies, I am an avid soccer player and enjoy playing whenever I get the chance. I also love to travel and explore new cultures, and have been fortunate enough to visit some amazing places over the years.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Thank you for visiting my website, and please feel free to reach out to me if you have any questions or feedback.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## News
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+* August 2024: I joined Waymo as a contract system test engineer.
+* January 2024: I joined Motional as an autonomous vehicle performance analysis engineer.
+* December 2023: I successfully completed my Master of Science in Electrical Engineering degree from the University of Nevada, Las Vegas, with a GPA of 4.0.
+* September 2023: I attended to ITSC 2023 conference in Bilbao, Spain, and presented our accepted paper. I also traveled to Barcelona and Paris. Those two cities are amazing, and I wish to be there again.
+* July 2023:  The initial findings of my MS thesis have been accepted at the 2023 IEEE International Conference on Intelligent Transportation Systems (ITSC). In this study, we present a new lane detection dataset created from challenging Las Vegas streets. Besides, we propose a lane classification model that can be used with a lane detection model to classify lane marking types such as solid and dashed. We also investigate the effect of using mixed-precision techniques in model training and testing.
+* June 2023: I attended the 2023 IEEE Intelligent Vehicle Symposium (IV) in Anchorage, Alaska. I participated Autoware Tutorial, where I learned valuable insights into the Autoware Autonomous Driving Software Stack. Took part in technical sessions too, where I met with some amazing professionals from industry and academia.
+* October 2022: Paper accepted in IEEE International Conference on Vehicular Electronics and Safety (ICVES 2022). In that study, we demonstrated how to implement a pedestrian emergency braking system in a very short time. A yolov5-based monocular 3D object detection model was used to measure the pedestrian distance and a longitudinal PD controller was designed to control the car speed smoothly. Finally, we compared both simulation and real-world performance.
+* August 2022: Received UNLV Access Grant for academic excellence. Such accolades encourage me to work harder.
+* May 2022: Our team participated in the Bosch challenge. I could not travel there due to VISA issues, but my other team members attended. Although we did not win any prizes, it was a great experience and the things I have learned will be significantly useful for my work with a real autonomous car.
+* March 2022: It is a great pleasure for me to announce that our team from UNLV got selected for the final event of the Bosch Future Mobility Challenge. We have been invited to attend the final at Bosch Engineering Facilities in Center Cluj, Romania. Only 24 teams out of around 100 got selected for the final event.
+* January 2022: I joined Team UNLV Rebel Dynamics to work on a 1/10 scale self-driving car for the Bosch Future Mobility Challenge 2022. This is an international robotics competition. We were provided with a 1/10 scale car equipped with a Raspberry pi 4 processor, PiCamera, GPS,  and IMU module. More about this project will be found here.
+* January 2022: I officially started my graduate journey. Let's see what the future holds for me. Keep me in your prayers so that I can make my parents, my community, and my country proud one day.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
