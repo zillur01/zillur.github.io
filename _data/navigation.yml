@@ -21,7 +21,7 @@ main:
 #    url: /portfolio/
         
   - title: "Blog Posts"
-    url: /yeah-archive/
+    url: /blogs/
     
   - title: "CV"
     url: /cv/
