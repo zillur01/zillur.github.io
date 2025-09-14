@@ -1,0 +1,10 @@
+---
+title: "A real-time wrong-way vehicle detection based on YOLO and centroid tracking"
+collection: publications
+category: manuscripts
+excerpt: ''
+venue: '2020 IEEE Region 10 Symposium (TENSYMP)'
+paperurl: 'https://arxiv.org/pdf/2210.10226'
+---
+
+Wrong-way driving is one of the main causes of road accidents and traffic jam all over the world. By detecting wrong-way vehicles, the number of accidents can be minimized and traffic jam can be reduced. With the increasing popularity of real-time traffic management systems and due to the availability of cheaper cameras, the surveillance video has become a big source of data. In this paper, we propose an automatic wrong-way vehicle detection system from on-road surveillance camera footage. Our system works in three stages: the detection of vehicles from the video frame by using the You Only Look Once (YOLO) algorithm, track each vehicle in a specified region of interest using centroid tracking algorithm and detect the wrong-way driving vehicles. YOLO is very accurate in object detection and the centroid tracking algorithm can track any moving object efficiently. Experiment with some traffic videos shows that our proposed system can detect and identify any wrong-way vehicle in different light and weather conditions. The system is very simple and easy to implement.
